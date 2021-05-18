@@ -1,11 +1,12 @@
 // FORK this starter file and save it to your own Repl.it account.
-
+const input = require('readline-sync');
+let astronautCount = input.question("What is the astronaut count?");
+astronautCount = Number(astronautCount);
 
 
 // Declare and initialize the 12 variables here:
 let date = "Monday 2019-03-18";
 let time = "10:05:34 AM";
-let astronautCount = 7;
 let astronautStatus = "ready";
 let averageAstronautMassKg = 80.7;
 let crewMassKg = astronautCount * averageAstronautMassKg;
